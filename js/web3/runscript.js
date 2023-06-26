@@ -90,7 +90,7 @@ const Supply = async () => {
   let Contract = web3.eth.Contract;
   let contract = new Contract(abi, contractAddress);
   let supply = await contract.methods.totalSupply().call();
-  let supplyText = `${supply} / 3,000`;
+  let supplyText = `${supply} / 100`;
   document.getElementById("supply_count").textContent = supplyText;
   console.log(supplyText);
 };
