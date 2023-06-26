@@ -11,7 +11,7 @@ if(NETWORK_MODE == 'TESTNET') {
   RPC = "https://rpc.v4.testnet.pulsechain.com";
 }
 else {
-   contractAddress = "0x0805aE035fCeA6276741eA4e3250592504E99699";
+   contractAddress = "0x4caF39EE0A854bEdF227351bc854aE908c03397e";
    CHAINID = 369 //Mainnet
    RPC = "https://rpc.pulsechain.com";
 }
