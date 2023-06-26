@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   const contract = new web3.eth.Contract(abi, contractAddress)
   contract.defaultAccount = '0xDfD14ef940d483d9B961bf635cEFCe77345A708f';
   let supply = await contract.methods.totalSupply().call();
-  let supplyText = `${supply} / 3,000`;
+  let supplyText = `${supply} / 100`;
   document.getElementById("supply_count").textContent = supplyText;
   console.log(supplyText);
 })
