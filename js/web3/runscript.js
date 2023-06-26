@@ -151,7 +151,7 @@ const Mint = async () => {
             <br>
               ${tokenIds
                 .map(
-                  tokenId => `<img src="https://looksrare.mypinata.cloud/ipfs/QmdheM2UEhjs9mStQzGuRfq5SnBaXW6CB5ntvtqFg57wYe/${tokenId}.png" alt="Pulsechain Space Ape# ${tokenId}" width="200" height="200" style="border: 1px solid #ccc;">`
+                  tokenId => `<img src="https://ghostown.mypinata.cloud/ipfs/QmU2FgPf2EeijBVWYBHW3NY7n1N56ozUn38MGMYVkHgzLy/?_gl=1*efam1m*_ga*MjY2NjQ5MDEwLjE2NzQwODMyMDY.*_ga_5RMPXG14TE*MTY4NzgxOTI4MS44LjAuMTY4NzgxOTI4MS42MC4wLjA.${tokenId}.png" alt="Pulse Rock# ${tokenId}" width="200" height="200" style="border: 1px solid #ccc;">`
                 )
                 .join('')}
             <br>
