@@ -143,7 +143,7 @@ const Mint = async () => {
       
 //Use lookrare ipfs gateway for faster loading time.
       Swal.fire({
-        title: tokenSize + " Space Apes minted!",
+        title: tokenSize + " Pulse Rocks minted!",
         icon: 'success',
         color: 'white',
         html: `
